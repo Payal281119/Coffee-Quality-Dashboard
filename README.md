@@ -9,12 +9,13 @@ The Coffee Quality Dashboard is a dynamic and interactive Power BI report built 
 
 ### 3. Tech Stack
 The dashboard was built using the following tools and technologies:
-⦁	**Power BI Desktop** – Main data visualization used for report creation and dashboard design.
-⦁	**Power Query** – Data transformation and cleaning layer for reshaping, filter  and preparing raw data.
-⦁	**DAX (Data Analysis Expressions)** – Used for creating calculated measures, dynamic visuals and conditional logic.
-⦁	**Microsoft Excel** – initial data preparation and exploratory analysis
-⦁	**GitHub** – for version control and project sharing.
-⦁	**File Format** - .pbix for development and .png for dashboard previews.
+
+- **Power BI Desktop** – Main data visualization used for report creation and dashboard design.<br>
+- **Power Query** – Data transformation and cleaning layer for reshaping, filter  and preparing raw data.<br>
+-	**DAX (Data Analysis Expressions)** – Used for creating calculated measures, dynamic visuals and conditional logic.<br>
+-	**Microsoft Excel** – initial data preparation and exploratory analysis<br>
+-	**GitHub** – for version control and project sharing.<br>
+-	**File Format** - .pbix for development and .png for dashboard previews.<br>
 
 ### 4. Data Source
 The dataset includes ~200 Arabica coffee samples stored in a single flat table provided by the Institute. Key columns include: Total Cup Points, Aroma, Acidity, Flavor, Harvest Year, Country, Region, Varity, Method and other sensory attributes.The data covers harvest years from 2010 to 2018.
@@ -24,37 +25,52 @@ The best dashboard explanation format:
 
 **a. Business problem**
 Specialty coffee producers and quality analysts need to identify which sensory attributes, processing methods, and defect patterns most influence Total Cup Points to improve quality and market competitiveness.
+
 **b. Key Questions**
-a. Which processing method scores highest?
-b. How does harvest year affect quality?
-c. Which sensory attributes matter most?
-d. Top countries by average score?
+
+a. Which processing method scores highest?<br>
+b. How does harvest year affect quality?<br>
+c. Which sensory attributes matter most<br>
+d. Top countries by average score?<br>
+
 **c. Goal of the dashboard**
+
 To visually explore ~200 Arabica coffee samples by analyzing sensory scores, processing methods, and defects, and understand their relationship to Total Cup Points.
+
 **d. Key Visuals – Brief Walkthrough**  
-✅ Overview Page
-⦁	Summary cards: Quick KPIs showing average Total Cup Points, total defects, number of countries, and top scoring processing method — to set the context.
-⦁	Scatter plots: Show how Flavor, Aftertaste, and Acidity relate to Total Cup Points, highlighting the strongest sensory drivers of quality.
-⦁	Map: Visualizes Total Cup Points by country, making it easy to spot top-performing origins.
-⦁	Average sensory scores bar chart: Compares overall scores across different attributes (Aroma, Body, Balance, etc.) to see which are strongest.
-✅ Total Cup Points Page
-⦁	Bar charts by Country, Region, Variety, Processing Method, and Harvest Year: Break down Total Cup Points to see where and why scores vary.
-⦁	Altitude chart: Shows how altitude affects quality, revealing that higher altitudes often correlate with better cup scores.
-✅ Sensory Attributes Page
-⦁	Grouped bar charts: Compare sums of Sweetness, Flavor, and Aroma across countries, regions, varieties, and processing methods.
-⦁	Helps discover patterns, like which origins and methods deliver higher sensory scores.
-✅ Defects Page
-⦁	Summary cards: Total Category One and Two defects.
-⦁	Average defects by country and quaker counts: Identify countries with higher defect levels.
-⦁	Decomposition Tree: Tracks Total Cup Points flowing across country, region, processing method, method style, moisture percent, and harvest year — to see where scores concentrate or drop.
+
+- **Overview Page** -
+  
+⦁	Summary cards: Quick KPIs showing average Total Cup Points, total defects, number of countries, and top scoring processing method — to set the context.<br>
+⦁	Scatter plots: Show how Flavor, Aftertaste, and Acidity relate to Total Cup Points, highlighting the strongest sensory drivers of quality.<br>
+⦁	Map: Visualizes Total Cup Points by country, making it easy to spot top-performing origins.<br>
+⦁	Average sensory scores bar chart: Compares overall scores across different attributes (Aroma, Body, Balance, etc.) to see which are strongest.<br>
+
+- **Total Cup Points Page** -
+  
+⦁	Bar charts by Country, Region, Variety, Processing Method, and Harvest Year: Break down Total Cup Points to see where and why scores vary.<br>
+⦁	Altitude chart: Shows how altitude affects quality, revealing that higher altitudes often correlate with better cup scores.<br>
+
+- **Sensory Attributes Page**
+  
+⦁	Grouped bar charts: Compare sums of Sweetness, Flavor, and Aroma across countries, regions, varieties, and processing methods.<br>
+⦁	Helps discover patterns, like which origins and methods deliver higher sensory scores.<br>
+
+- **Defects Page**
+  
+⦁	Summary cards: Total Category One and Two defects.<br>
+⦁	Average defects by country and quaker counts: Identify countries with higher defect levels.<br>
+⦁	Decomposition Tree: Tracks Total Cup Points flowing across country, region, processing method, method style, moisture percent, and harvest year — to see where scores concentrate or drop.<br>
 
 ### 6. Business Impact and Insights
-⦁	Quality Optimization: Producers can pinpoint which sensory attributes most impact cup scores and refine processing to boost quality.
-⦁	Market Positioning: Exporters can highlight top-performing lots by country, variety, or method to target specialty buyers.
-⦁	Defect Reduction: Identify defect patterns by origin and processing to proactively reduce defects and improve overall scores.
-⦁	Strategic Sourcing: Buyers can spot regions and harvest years consistently delivering higher quality, guiding purchasing decisions.
+
+⦁	Quality Optimization: Producers can pinpoint which sensory attributes most impact cup scores and refine processing to boost quality.<br>
+⦁	Market Positioning: Exporters can highlight top-performing lots by country, variety, or method to target specialty buyers.<br>
+⦁	Defect Reduction: Identify defect patterns by origin and processing to proactively reduce defects and improve overall scores.<br>
+⦁	Strategic Sourcing: Buyers can spot regions and harvest years consistently delivering higher quality, guiding purchasing decisions.<br>
 
 ### 7. Screenshots/Demos
+
 ### See how the Dashboard looks like :
 ![Dashboard Preview1](https://github.com/Payal281119/Coffee-Quality-Dashboard/blob/main/Snapshotshot%20of%20the%20Coffee%20Quality%20Dashboard%201.png)
 ![Dashboard Preview2](https://github.com/Payal281119/Coffee-Quality-Dashboard/blob/main/Snapshot%20of%20the%20Coffee%20Quality%20Dashboard%202.png)
